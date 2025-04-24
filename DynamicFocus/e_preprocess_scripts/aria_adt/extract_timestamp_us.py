@@ -1,0 +1,6 @@
+from projectaria_tools.utils.vrs_to_mp4_utils import get_timestamp_from_mp4
+vrs_device_timestamps_nanoseconds = get_timestamp_from_mp4(r"D:\b_data_train\data_b_cache\aria_adt\Apartment_release_clean_seq131_M1292\ADT_Apartment_release_clean_seq131_M1292_preview_rgb.mp4")
+
+print(vrs_device_timestamps_nanoseconds)
+
+# ERROR for debug !
