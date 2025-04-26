@@ -7,7 +7,7 @@ In the paper, we present a foveated instance segmentation (FovealSeg) framework 
   <img src="image/example.jpg" alt="Example Image" width="600">
 </p>
 <p align="center">
-  <b>Figure :</b> An example on LVIS. Input Image (Left), Ground Truth (Middle), and Predicted Mask by FovealSeg (Right)
+  <b>Figure :</b> An example on LVIS. Left: Input Image and Gaze (red dot denotes the gaze location). Middle: Ground Truth. Right: Predicted Mask by FovealSeg.
 </p>
 
 ## Environment Setup
