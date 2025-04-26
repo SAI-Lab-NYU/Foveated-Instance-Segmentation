@@ -1,8 +1,15 @@
 # Foveated Instance Segmentation
-Instance segmentation is essential for augmented reality and virtual reality (AR/VR) as it enables precise object recognition and interaction, enhancing the integration of virtual and real-world elements for an immersive experience. However, the high computational overhead of segmentation limits its application on resource-constrained AR/VR devices, causing large processing latency and degrading user experience. 
-In contrast to conventional scenarios, AR/VR users typically focus on only a few regions within their field of view before shifting perspective, allowing segmentation to be concentrated on gaze-specific areas. This insight drives the need for efficient segmentation methods that prioritize processing instance of interest, reducing computational load and enhancing real-time performance.
+This is the implementation of [**Foveated Instance Segmentation**](https://arxiv.org/abs/2503.21854). 
 
-In this paper, we present a~\textit{foveated instance segmentation} (FovealSeg) framework that leverages real-time user gaze data to perform instance segmentation exclusively on instance of interest, resulting in substantial computational savings. Evaluation results show that FSNet achieves an IoU of 0.56 on ADE20K and 0.54 on LVIS, notably outperforming the baseline. 
+In the paper, we present a foveated instance segmentation (FovealSeg) framework that leverages real-time user gaze data to perform instance segmentation exclusively on instance of interest, resulting in substantial computational savings. Evaluation results show that FSNet achieves an IoU of 0.56 on ADE20K and 0.54 on LVIS, notably outperforming the baseline. 
+
+<p align="center">
+  <img src="image/example.jpg" alt="Example Image" width="600">
+</p>
+<p align="center">
+  <b>Figure :</b> An example on LVIS. Input Image (Left), Ground Truth (Middle), and Predicted Mask by FovealSeg (Right)
+</p>
+
 ## Environment Setup
 ```bash
 pip install -r requirements.txt
